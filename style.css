@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+}
+
+.game-board {
+    width: 300px;
+    height: 200px;
+    background-color: #d6d6d6;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square-position {
+    width: 10px;
+    height: 10px;
+
+    background-color: #bbb;
+}
+
+.snake-part {
+    border-radius: 2px;
+    background-color: red;
+}
+
+.head {
+    background-color: rgb(172, 19, 19);
+}
+
+.ball {
+    background-color: green;
+    border-radius: 10px;
+    scale: 1.2;
+}
+
+.control {
+    background-color: white;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+}
