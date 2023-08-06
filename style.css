@@ -40,11 +40,36 @@ body {
 .control {
     background-color: white;
     padding: 10px;
-    width: fit-content;
+    width: 300px;
     border-radius: 10px;
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
     margin-top: 10px;
 
+    justify-content: space-evenly;
+
+}
+
+.arrows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.arrows>div {
+    display: flex;
+    gap: 15px;
+}
+
+.arrows button {
+    padding: 5px;
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+}
+
+#toggle {
+    height: 60px;
 }
