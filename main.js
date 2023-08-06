@@ -2,7 +2,7 @@ const framePerSecond = 5;
 // board dimentions
 const POS_DIMENTION = 10;
 const BOARD_HEIGHT = 30;// this mean 40 * position dimenion
-const BOARD_WIDTH = 50;// this mean 40 * position dimenion
+const BOARD_WIDTH = Math.floor(window.innerWidth / 10) - 10;// this mean 40 * position dimenion
 
 // board html element
 const board = document.getElementById("game-borad")
